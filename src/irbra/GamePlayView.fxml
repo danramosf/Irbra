@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="600.0" minWidth="800.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #545454;" styleClass="GamePlayView.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="irbra.GamePlayViewController">
+   <left>
+      <VBox minWidth="175.0" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: #4a4a4b; -fx-border-width: 2px; -fx-border-color: #292a2a;" styleClass="GamePlayView.css" BorderPane.alignment="CENTER">
+         <children>
+            <TabPane prefHeight="400.0" prefWidth="175.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab text="Backpack">
+                     <content>
+                        <GridPane maxHeight="300.0" maxWidth="175.0" minHeight="300.0" minWidth="175.0" style="-fx-background-color: #292a2a; -fx-border-width: 2px; -fx-border-color: #707070;" styleClass="GamePlayView.css">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.rowIndex="1" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.rowIndex="2" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.rowIndex="3" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.rowIndex="4" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.rowIndex="5" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                           </children>
+                        </GridPane>
+                     </content>
+                </Tab>
+                <Tab text="Container">
+                     <content>
+                        <GridPane maxHeight="300.0" maxWidth="175.0" minHeight="300.0" minWidth="175.0" style="-fx-background-color: #292a2a; -fx-border-width: 2px; -fx-border-color: #707070;" styleClass="GamePlayView.css">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="1" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="2" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.rowIndex="1" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.rowIndex="2" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.rowIndex="3" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.rowIndex="4" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.rowIndex="5" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                              <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647; -fx-border-style: dotted;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                           </children>
+                        </GridPane>
+                     </content>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </VBox>
+   </left>
+   <right>
+      <VBox maxWidth="175.0" minWidth="175.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane maxHeight="160.0" maxWidth="175.0" minHeight="200.0" minWidth="175.0" style="-fx-background-color: #292a2a; -fx-border-width: 2px; -fx-border-color: #707070;" styleClass="GamePlayView.css">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <StackPane fx:id="amuletSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" />
+                  <StackPane fx:id="helmetSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" />
+                  <StackPane fx:id="backpackSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" />
+                  <StackPane fx:id="armorSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <StackPane fx:id="weaponSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.rowIndex="1" />
+                  <StackPane fx:id="shieldSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <StackPane fx:id="ringSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.rowIndex="2" />
+                  <StackPane fx:id="legsSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <StackPane fx:id="ammoSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.rowIndex="3" />
+                  <StackPane fx:id="bootsSP" prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-width: 1px; -fx-border-color: #464647;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+               </children>
+            </GridPane>
+            <FlowPane maxHeight="17.0" maxWidth="175.0" minHeight="17.0" minWidth="175.0" prefWidth="175.0" style="-fx-background-color: #9a3d3d;" styleClass="GamePlayView.css">
+               <children>
+                  <Rectangle fx:id="rectHP" arcHeight="5.0" arcWidth="5.0" fill="#f16161" height="17.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+               </children></FlowPane>
+            <FlowPane maxHeight="17.0" maxWidth="175.0" minHeight="17.0" minWidth="175.0" prefWidth="175.0" style="-fx-background-color: #3da73d;" styleClass="GamePlayView.css">
+               <children>
+                  <Rectangle fx:id="rectExp" arcHeight="5.0" arcWidth="5.0" fill="#5cff5c" height="17.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+               </children></FlowPane>
+            <TextFlow lineSpacing="8.0" maxWidth="175.0" minWidth="175.0" prefHeight="170.0" prefWidth="175.0" style="-fx-background-color: #4a4a4b; -fx-border-width: 2px;" styleClass="GamePlayView.css" textAlignment="JUSTIFY">
+               <children>
+                  <Label prefHeight="17.0" prefWidth="120.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="Exp Points:" />
+                  <Label fx:id="lblSkillsExp" prefHeight="17.0" prefWidth="43.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="\\$exp" textAlignment="RIGHT" />
+                  <Label prefHeight="17.0" prefWidth="120.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="Health Points:" />
+                  <Label fx:id="lblSkillsHp" prefHeight="17.0" prefWidth="43.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="\$hp" textAlignment="RIGHT" />
+                  <Label prefHeight="17.0" prefWidth="120.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="Sword Skills:" />
+                  <Label fx:id="lblSkillsSw" prefHeight="17.0" prefWidth="43.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="\$sws" textAlignment="RIGHT" />
+                  <Label prefHeight="17.0" prefWidth="120.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="Axe Skills:" />
+                  <Label fx:id="lblSkillsAxe" prefHeight="17.0" prefWidth="43.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="\$axs" textAlignment="RIGHT" />
+                  <Label prefHeight="17.0" prefWidth="120.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="Distance Skills:" />
+                  <Label fx:id="lblSkillsDis" prefHeight="17.0" prefWidth="43.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="\$dis" textAlignment="RIGHT" />
+                  <Label prefHeight="17.0" prefWidth="120.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="Deffence Skills:" />
+                  <Label fx:id="lblSkillsDef" prefHeight="17.0" prefWidth="43.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="\$des" textAlignment="RIGHT" />
+                  <Label prefHeight="17.0" prefWidth="120.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="Speed:" />
+                  <Label prefHeight="17.0" prefWidth="43.0" style="-fx-text-fill: white; -fx-font-weight: bold;" styleClass="GamePlayView.css" text="10" textAlignment="RIGHT" />
+               </children>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </TextFlow>
+         </children>
+      </VBox>
+   </right>
+   <bottom>
+      <BorderPane maxHeight="200.0" minHeight="200.0" minWidth="800.0" prefHeight="200.0" BorderPane.alignment="CENTER">
+         <bottom>
+            <FlowPane prefHeight="25.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="tfChat" maxHeight="25.0" maxWidth="1600.0" minHeight="25.0" minWidth="800.0" onAction="#enterTextOnChatlog" prefHeight="25.0" prefWidth="785.0" style="-fx-background-color: #484848; -fx-border-width: 2px; -fx-border-color: #727273; -fx-font-weight: bold; -fx-text-fill: #c1c1c1;" styleClass="GamePlayView.css" />
+               </children>
+            </FlowPane>
+         </bottom>
+         <left>
+            <HBox maxHeight="175.0" maxWidth="175.0" minHeight="175.0" minWidth="175.0" prefHeight="175.0" prefWidth="175.0" BorderPane.alignment="CENTER">
+               <children>
+                  <StackPane minHeight="150.0" prefHeight="150.0" prefWidth="100.0" style="-fx-background-color: #2d2e2e;" styleClass="GamePlayView.css">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/avatar.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </StackPane>
+                  <AnchorPane maxHeight="175.0" prefHeight="175.0" prefWidth="75.0" style="-fx-background-color: #2d2e2e;" styleClass="GamePlayView.css">
+                     <children>
+                        <Label fx:id="lblPlayerName" layoutX="4.0" layoutY="35.0" style="-fx-font-weight: bold;" styleClass="GamePlayView.css" text="playername" textFill="WHITE" />
+                        <Label fx:id="lblPlayerVocation" layoutX="13.0" layoutY="58.0" style="-fx-font-weight: bold;" styleClass="GamePlayView.css" text="vocation" textFill="WHITE" />
+                        <Label fx:id="lblPlayerLevel" layoutX="23.0" layoutY="79.0" style="-fx-font-weight: bold;" styleClass="GamePlayView.css" text="Level" textFill="WHITE" />
+                     </children></AnchorPane>
+               </children>
+            </HBox>
+         </left>
+         <center>
+            <TextArea fx:id="taChatlog" editable="false" maxHeight="175.0" minHeight="175.0" minWidth="450.0" prefHeight="175.0" prefWidth="450.0" style="-fx-background-color: #393a3a;" styleClass="GamePlayView.css" text="Chatlog ----------------------&#10;" BorderPane.alignment="CENTER" />
+         </center>
+         <right>
+            <StackPane maxHeight="175.0" maxWidth="175.0" minHeight="175.0" minWidth="175.0" prefHeight="175.0" prefWidth="175.0" style="-fx-background-color: #2d2e2e;" styleClass="GamePlayView.css" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="110.0" fitWidth="110.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/minimap.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </StackPane>
+         </right>
+      </BorderPane>
+   </bottom>
+   <center>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <center>
+            <GridPane fx:id="gameplayGridPane" alignment="CENTER" maxHeight="425.0" maxWidth="580.0" minHeight="330.0" minWidth="450.0" prefHeight="330.0" prefWidth="450.0" style="-fx-background-color: black; -fx-border-color: red;" styleClass="GamePlayView.css" BorderPane.alignment="CENTER">
+               <children>
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="2" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="3" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="4" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <StackPane fx:id="playerStackPane" prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="5" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="6" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="7" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="8" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="9" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="11" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="13" GridPane.rowIndex="10" />
+                  <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-border-color: yellow;" styleClass="GamePlayView.css" GridPane.columnIndex="14" GridPane.rowIndex="10" />
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+         </center>
+         <top>
+            <FlowPane minHeight="33.0" minWidth="450.0" prefWidth="450.0" style="-fx-background-color: #4a4a4b;" styleClass="GamePlayView.css" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <FlowPane minHeight="32.0" minWidth="450.0" style="-fx-background-color: #4a4a4b;" styleClass="GamePlayView.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="playerPosX" text="X: " />
+                  <Label fx:id="playerPosY" text="Y: " />
+                  <Label fx:id="lblStatus" prefHeight="17.0" prefWidth="420.0" text="Status" textAlignment="CENTER" textFill="#f7f400" />
+               </children></FlowPane>
+         </bottom>
+         <left>
+            <Pane style="-fx-background-color: #4a4a4b;" styleClass="GamePlayView.css" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Pane style="-fx-background-color: #4a4a4b;" styleClass="GamePlayView.css" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </center>
+</BorderPane>
